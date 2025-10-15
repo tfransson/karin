@@ -1,0 +1,26 @@
+{% extends "base.njk" %}
+
+{% block content %}
+
+    <section class="site-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <h1 class="site-contact-title">
+              {{title}}<span>{{subTitle}}</span>
+            </h1>
+          </div>
+          <div class="col-lg-6 ml-auto">
+            <div class="site-contact-right">
+              <h4>{{formTitle}}</h4>
+              <div class="site-contact-right-text">
+                {{ content | safe}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+{% endblock %}
+{% block workTogether %}{% endblock %}

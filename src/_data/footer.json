@@ -1,0 +1,37 @@
+{
+  "contactsHeading": "Contact Info",
+  "contactsInfo":[
+    {
+      "link":"mailto:",
+      "text":"karin.ridderstolpe@gmail.com"
+    }
+  ],
+
+  "siteMapHeading":"Sitemap",
+  "siteMap":[
+    {
+      "link":"about me",
+      "text":"About me"
+    },
+    {
+      "link":"design",
+      "text":"Design"
+    },
+    {
+      "link":"craft",
+      "text":"Craft"
+    }
+  ],
+
+  "socialHeading":"Social Media",
+  "socialMedia":[
+    {
+      "link":"https://www.instagram.com/riddarkarin/",
+      "text":"Instagram"
+    }
+  ],
+  
+
+  "back2topIcon":"/assets/images/to-top.svg",
+  "customerComment":"Back to top"
+}

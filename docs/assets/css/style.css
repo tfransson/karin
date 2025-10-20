@@ -414,7 +414,7 @@ textarea.form-control {
 }
 .site-project-item {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 0px; /* grid w/o gutters */
   transition: all 0.3s ease-in;
 }
 .site-project-item-thumb img {
@@ -895,4 +895,14 @@ textarea.form-control {
   letter-spacing: 3px;
 }
 
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
 /*# sourceMappingURL=maps/style.css.map */

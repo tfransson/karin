@@ -16,13 +16,13 @@ portfolio_design:
   subTitle: "Design"
   title: "A sample of my design projects."
   seeAllbtn:
-    link: "design" # Funkar inte
+    link: "design"
     text: "MORE WORKS"
 
 portfolio_craft:
   subTitle: "Craft"
   title: "A sample of my craft projects."
   seeAllbtn:
-    link: "craft" # Funkar inte
+    link: "craft"
     text: "MORE WORKS"
 ---

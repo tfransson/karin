@@ -1,10 +1,9 @@
 /*!------------------------------------------------------------------
 [MAIN STYLESHEET]
 
-PROJECT:	Roxo HTML
+PROJECT:	Karin's portfolio
 VERSION:	1.0.0
 -------------------------------------------------------------------*/
-/* @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900|https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Montserrat:300,400,500,600,700&display=swap"); */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
 body {
   font-family: "Alegreya Sans", sans-serif;
@@ -15,7 +14,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 300;
-  color: #5fb9aa;
+  color: #397067;
 }
 
 p {
@@ -105,19 +104,19 @@ h6 {
 }
 
 .btn-primary {
-  background: #ad8f8f;
+  background: #ad8f8f80;
   color: #fff;
 }
 .btn-primary:hover {
-  background: #d8adad;
+  background: #d8adad80;
 }
 
 .btn-secondary {
-  background: #b4afe2;
+  background: #b4afe280;
   color: #fff;
 }
 .btn-secondary:hover {
-  background: #7d72df;
+  background: #7d72df80;
 }
 
 body {
@@ -218,6 +217,8 @@ textarea.form-control {
 .site-navigation .navbar-brand {
   padding: 0;
   margin: 0;
+  font-size: xx-large;
+  color: #397067;
 }
 .site-navigation .navbar-brand img {
   max-width: 78px;
@@ -229,7 +230,7 @@ textarea.form-control {
 }
 .site-navigation .nav-item .nav-link {
   font-family: "Alegreya Sans", sans-serif;
-  color: #00113E;
+  color:#397067;
   transition: all 0.3s ease;
   padding: 15px 18px;
   position: relative;

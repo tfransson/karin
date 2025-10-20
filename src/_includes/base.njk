@@ -57,7 +57,7 @@
               {% if navLink == "home" %}
                 <a class="nav-link" href="{{'/' | url}}">{{navLink | capitalize}}</a>
               {% else %}
-                <a class="nav-link" href="/{{navLink | url}}">{{navLink | capitalize}}</a> 
+                <a class="nav-link" href="{{ ['/', navLink] | join | url}}">{{navLink | capitalize}}</a> 
               {% endif %} 
             </li>
             {% endfor %}
@@ -101,7 +101,7 @@
               <ul class="site-footer-widget-links">
                 {% for siteMap in footer.siteMap %}
                  <li>
-                  <a href="/{{siteMap.link | url}}">{{siteMap.text}}</a>
+                  <a href="/{{['/', siteMap.link] | join | url}}">{{siteMap.text}}</a>
                  </li> 
                 {% endfor %}
               </ul>

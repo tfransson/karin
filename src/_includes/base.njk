@@ -101,7 +101,7 @@
               <ul class="site-footer-widget-links">
                 {% for siteMap in footer.siteMap %}
                  <li>
-                  <a href="/{{['/', siteMap.link] | join | url}}">{{siteMap.text}}</a>
+                  <a href="{{['/', siteMap.link] | join | url}}">{{siteMap.text}}</a>
                  </li> 
                 {% endfor %}
               </ul>

@@ -6,19 +6,19 @@
    "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "dev": "npx eleventy --serve",
-      "build": "eleventy"
+      "build": "env NODE_ENV=production npx eleventy --pathprefix 'karin'"
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/Tanvir9290/Roxo_eleventy.git"
+      "url": "git+https://github.com/tfransson/karin.git"
    },
    "keywords": [],
    "author": "",
    "license": "ISC",
    "bugs": {
-      "url": "https://github.com/Tanvir9290/Roxo_eleventy/issues"
+      "url": "https://github.com/tfransson/karin/issues"
    },
-   "homepage": "https://github.com/Tanvir9290/Roxo_eleventy#readme",
+   "homepage": "https://github.com/tfransson/karin#readme",
    "dependencies": {
       "@11ty/eleventy": "^0.12.1",
       "cross-env": "^10.0.0"

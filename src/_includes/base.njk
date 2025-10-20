@@ -15,28 +15,28 @@
     />
 
     <!-- Slick Carousel -->
-    <link rel="stylesheet" href="/assets/vendor/slick/slick.css" />
-    <link rel="stylesheet" href="/assets/vendor/slick/slick-theme.css" />
+    <link rel="stylesheet" href="{{assets/vendor/slick/slick.css | url }}" />
+    <link rel="stylesheet" href="{{assets/vendor/slick/slick-theme.css | url}}" />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
-      href="/assets/vendor/font-awesome/css/font-awesome.min.css"
+      href="{{assets/vendor/font-awesome/css/font-awesome.min.css | url}}"
     />
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="/assets/vendor/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{assets/vendor/bootstrap/bootstrap.min.css | url}}" />
     <!-- Stylesheets -->
-    <link href="/assets/css/style.css" rel="stylesheet" />
+    <link href="{{assets/css/style.css | url}}" rel="stylesheet" />
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="/assets/images/favIcon.png" type="image/x-icon" />
-    <link rel="icon" href="/assets/images/favIcon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{assets/images/favIcon.png | url}}" type="image/x-icon" />
+    <link rel="icon" href="{{assets/images/favIcon.png | url}}" type="image/x-icon" />
   </head>
 
   <body>
   {% block navbar %}
     <nav class="navbar navbar-expand-lg site-navigation">
       <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="{{url}}">
           Karin Ridderstolpe <!---<img src="{{nav.navLogo}}" alt="nav-logo" /> --->
         </a>
         <button
@@ -55,14 +55,14 @@
             {% for navLink in nav.navLinks %}
             <li class="nav-item">
               {% if navLink == "home" %}
-                <a class="nav-link" href="/">{{navLink | capitalize}}</a>
+                <a class="nav-link" href="{{url}}">{{navLink | capitalize}}</a>
               {% else %}
-                <a class="nav-link" href="/{{navLink}}">{{navLink | capitalize}}</a> 
+                <a class="nav-link" href="/{{navLink | url}}">{{navLink | capitalize}}</a> 
               {% endif %} 
             </li>
             {% endfor %}
             <li class="nav-item">
-              <a class="nav-link btn btn-sm btn-primary btn-sm-rounded" href="/{{nav.navBtnLink}}">
+              <a class="nav-link btn btn-sm btn-primary btn-sm-rounded" href="/{{nav.navBtnLink | url}}">
                 <span class="btn-area">
                   <span data-text="{{nav.navBtnText}}">
                     {{nav.navBtnText}}
@@ -89,7 +89,7 @@
               <h5 class="site-footer-widget-title">{{footer.contactsHeading}}</h5>
               <p class="site-footer-widget-description">
               {% for contactInfo in footer.contactsInfo %}
-                <a href="{{contactInfo.link}}">{{contactInfo.text}}</a>
+                <a href="{{contactInfo.link | url}}">{{contactInfo.text}}</a>
                 <br>
               {% endfor %}
               </p>
@@ -101,7 +101,7 @@
               <ul class="site-footer-widget-links">
                 {% for siteMap in footer.siteMap %}
                  <li>
-                  <a href="/{{siteMap.link}}">{{siteMap.text}}</a>
+                  <a href="/{{siteMap.link | url}}">{{siteMap.text}}</a>
                  </li> 
                 {% endfor %}
               </ul>
@@ -112,7 +112,7 @@
               <h5 class="site-footer-widget-title">{{footer.socialHeading}}</h5>
               <ul class="site-footer-widget-links">
                 {% for socialMedia in footer.socialMedia %}
-                <li><a href="{{socialMedia.link}}" target="_blank" rel="noopener noreferrer">{{socialMedia.text}}</a></li>
+                <li><a href="{{socialMedia.link | url}}" target="_blank" rel="noopener noreferrer">{{socialMedia.text}}</a></li>
                 {% endfor %}
               </ul>
             </div>

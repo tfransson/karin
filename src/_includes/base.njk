@@ -130,7 +130,7 @@
           </div>
           <div class="col-lg-2 col-12">
             <a href="#top" class="site-footer-widget-top">
-              <img src="{{footer.back2topIcon}}" alt="back-to-top">
+              <img src="{{footer.back2topIcon | url}}" alt="back-to-top">
               <p>
                 {{footer.customerComment}}
               </p>
@@ -141,9 +141,9 @@
     </footer>
   {% endblock %}
     <!-- <script src="js/vendor.js"></script> -->
-    <script src="/assets/vendor/jQuery/jquery.min.js"></script>
-    <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
-    <script src="/assets/js/script.js"></script>
+    <script src="{{'/assets/vendor/jQuery/jquery.min.js' | url}}"></script>
+    <script src="{{'/assets/vendor/bootstrap/bootstrap.min.js' | url}}"></script>
+    <script src="{{'/assets/js/script.js' | url}}"></script>
   </body>
 </html>
 

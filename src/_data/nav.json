@@ -1,6 +1,4 @@
 {
   "navLogo":"/assets/images/logo.png",
-  "navLinks":["home","design","craft","about me"],
-  "navBtnLink":"contact",
-  "navBtnText":"Get in touch"
+  "navLinks":["home","design","craft","about me","contact"]
 }

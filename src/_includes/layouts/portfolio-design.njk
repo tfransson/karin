@@ -24,7 +24,7 @@
   -->
     <section class="site-project" id="portfolio_design">
         <div class="container">
-          <div class="row">
+          <div class="row no-gutters">
             {% for portfolio in design_portfolios %}
             <div class="col-lg-4 col-md-6 mx-auto">
               <div class="site-project-item">
@@ -32,8 +32,8 @@
                   <img src="{{portfolio.data.img | url}}" alt="project-thumb">
                 </div>
                 <div class="site-project-item-content">
-                  <span>{{portfolio.data.subTitle}}</span>
                   <h3>{{portfolio.data.title}}</h3>
+                  <span>{{portfolio.data.subTitle}}</span>
                   <a href="{{portfolio.url | url}}" class="read-more">{{portfolio.data.linkText}}</a>
                 </div>
               </div>

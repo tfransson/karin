@@ -4,17 +4,18 @@
 PROJECT:	Karin's portfolio
 VERSION:	1.0.0
 -------------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 body {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-size: 16px;
-  color: #9D9EA5;
+  color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 300;
-  color: #397067;
+  color: #ffffff;
 }
 
 p {
@@ -104,23 +105,23 @@ h6 {
 }
 
 .btn-primary {
-  background: #ad8f8f80;
+  background: #ad8f8fb2;
   color: #fff;
 }
 .btn-primary:hover {
-  background: #d8adad80;
+  background: #aa7c7cb2;
 }
 
 .btn-secondary {
-  background: #b4afe280;
+  background: #b4afe2b2;
   color: #fff;
 }
 .btn-secondary:hover {
-  background: #7d72df80;
+  background: #7d72dfb2;
 }
 
 body {
-  background: #fff;
+  background: #d4d4d4;
 }
 
 .section-title {
@@ -192,7 +193,7 @@ textarea.form-control {
 
 .site-navigation {
   padding: 20px 0;
-  background: #d9e4e3;
+  background: #ffffff00;
   position: fixed;
   top: 0;
   width: 100%;
@@ -218,7 +219,7 @@ textarea.form-control {
   padding: 0;
   margin: 0;
   font-size: xx-large;
-  color: #397067;
+  color: #ffffff;
 }
 .site-navigation .navbar-brand img {
   max-width: 78px;
@@ -230,7 +231,7 @@ textarea.form-control {
 }
 .site-navigation .nav-item .nav-link {
   font-family: "Alegreya Sans", sans-serif;
-  color:#397067;
+  color:#ffffff;
   transition: all 0.3s ease;
   padding: 15px 18px;
   position: relative;
@@ -291,9 +292,12 @@ textarea.form-control {
 .site-home {
   position: relative;
   height: 100vh;
-  background-image: url("../images/backgrounds/temp-bkg.jpg");
+  background-image: url("../images/backgrounds/jobbar.jpg");
   background-size: cover;
   background-position: center center;
+  border-bottom-style: dotted;
+  border-bottom-color: rgb(175, 175, 175);
+  border-bottom-width: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -333,7 +337,7 @@ textarea.form-control {
   }
 }
 .site-home-content h1 {
-  margin-bottom: 75px;
+  margin-bottom: 120px;
 }
 @media (max-width: 991px) {
   .site-home-content h1 {
@@ -436,7 +440,7 @@ textarea.form-control {
 }
 .site-project-item-content span {
   font-family: "Alegreya Sans", sans-serif;
-  color: #EAA4A4;
+  color: #000000cc;
   display: block;
   margin-bottom: 10px;
 }
@@ -477,7 +481,7 @@ textarea.form-control {
   font-family: "Alegreya Sans", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: #EAA4A4;
+  color: #ffffff;
 }
 .site-project-cta::before {
   content: "";
@@ -604,7 +608,7 @@ textarea.form-control {
 }
 .site-project-single-description p {
   margin-bottom: 30px;
-  color:#495766
+  color:#ffffff
 }
 .site-project-single-action a {
   position: relative;

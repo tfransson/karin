@@ -202,7 +202,7 @@ textarea.form-control {
 }
 @media (max-width: 991px) {
   .site-navigation {
-    background: #fff;
+    background:#9f93d462;
     margin: 10px;
     border-radius: 5px;
     top: 0;
@@ -213,6 +213,7 @@ textarea.form-control {
 @media (max-width: 575px) {
   .site-navigation {
     padding: 15px;
+    background:#9f93d462;
   }
 }
 .site-navigation .navbar-brand {
@@ -220,21 +221,42 @@ textarea.form-control {
   margin: 0;
   font-size: xx-large;
   color: #ffffff;
+  -webkit-text-stroke: 0.8px #b36565;
 }
 .site-navigation .navbar-brand img {
   max-width: 78px;
 }
 @media (max-width: 991px) {
+  .site-navigation .navbar-brand {
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+    color: #ffffffc4;
+    -webkit-text-stroke: 0px #b36565d5;
+  }
+}
+@media (max-width: 991px) {
   .site-navigation .nav-item {
-    text-align: center;
+    text-align: right;
   }
 }
 .site-navigation .nav-item .nav-link {
-  font-family: "Alegreya Sans", sans-serif;
-  color:#ffffff;
-  transition: all 0.3s ease;
-  padding: 15px 18px;
-  position: relative;
+    font-family: "Alegreya Sans", sans-serif;
+    color:#ffffff;
+    transition: all 0.3s ease;
+    padding: 15px 18px;
+    position: relative;
+  }
+
+@media (max-width: 991px) {
+  .site-navigation .nav-item .nav-link {
+    font-family: "Alegreya Sans", sans-serif;
+    color:#ffffff;
+    text-decoration:none;
+    transition: all 0.3s ease;
+    padding: 8px 18px;
+    position: relative;
+  }
 }
 .site-navigation .nav-item .nav-link:hover {
   color: #EAA4A4;
@@ -250,7 +272,7 @@ textarea.form-control {
   height: 2px;
   width: 25px;
   transition: all 0.2s;
-  background: #EAA4A4;
+  background: #ffffff;
   display: block;
 }
 .site-navigation .navbar-toggler .icon-bar:not(:last-child) {
@@ -310,7 +332,7 @@ textarea.form-control {
 }
 @media (max-width: 575px) {
   .site-home {
-    padding: 150px 0;
+    padding: 210px 0;
   }
 }
 
@@ -353,7 +375,8 @@ textarea.form-control {
 }
 @media (max-width: 575px) {
   .site-home-content-buttons li {
-    display: block;
+    /*display: block;*/
+    
   }
 }
 .site-home-content-buttons li:not(:last-child) {
@@ -361,8 +384,8 @@ textarea.form-control {
 }
 @media (max-width: 575px) {
   .site-home-content-buttons li:not(:last-child) {
-    margin-right: 0;
-    margin-bottom: 20px;
+    margin-right: 30;
+    margin-bottom: 10px;
   }
 }
 .site-home-content-buttons li .btn {
@@ -370,7 +393,7 @@ textarea.form-control {
 }
 @media (max-width: 575px) {
   .site-home-content-buttons li .btn {
-    width: 90%;
+    /*width: 90%;*/
     margin: 0 auto;
     display: block;
   }

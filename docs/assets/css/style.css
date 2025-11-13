@@ -9,18 +9,18 @@ VERSION:	1.0.0
 body {
   font-family: "Titillium Web", sans-serif;
   font-size: 16px;
-  color: #ffffff;
+  color: #000000;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Titillium Web", sans-serif;
   font-weight: 300;
-  color: #ffffff;
+  color: #000000;
 }
 
 p {
   font-size: 16px;
-  color: #ffffff;
+  color: #000000;
 }
 
 h1 {
@@ -29,6 +29,7 @@ h1 {
 
 h2 {
   font-size: 50px;
+  color:#c58470;
 }
 
 h3 {
@@ -49,11 +50,11 @@ h6 {
 }
 
 .btn {
-  font-family: "Alegreya Sans", sans-serif;
-  border: none;
-  color: #fff !important;
+  /*color: #192972 !important;*/
   padding: 20px 45px;
+  border-width: 2px;
   border-radius: 0;
+  border-style: solid;
 }
 .btn:focus {
   box-shadow: none;
@@ -105,23 +106,27 @@ h6 {
 }
 
 .btn-primary {
-  background: #ad8f8fb2;
-  color: #fff;
+  background: #ffffff;
+  color: #6082c2 !important;
+  border-color: #6082c2;
 }
 .btn-primary:hover {
-  background: #aa7c7cb2;
+  background: #d5e1ee;
+  border-color: #6082c2;
 }
 
 .btn-secondary {
-  background: #b4afe2b2;
-  color: #fff;
+  background: #ffffff;
+  color: #c58470 !important;
+  border-color: #c58470;
 }
 .btn-secondary:hover {
-  background: #7d72dfb2;
+  background: #efe8cf;
+  border-color: #c58470;
 }
 
 body {
-  background: #d4d4d4;
+  background: #ffffff;
 }
 
 .section-title {
@@ -220,8 +225,8 @@ textarea.form-control {
   padding: 0;
   margin: 0;
   font-size: xx-large;
-  color: #ffffff;
-  -webkit-text-stroke: 0.3px #7b6fe0;
+  color: #6082c2;
+  /*-webkit-text-stroke: 0.3px #7b6fe0;*/
 }
 .site-navigation .navbar-brand img {
   max-width: 78px;
@@ -241,8 +246,7 @@ textarea.form-control {
   }
 }
 .site-navigation .nav-item .nav-link {
-    font-family: "Alegreya Sans", sans-serif;
-    color:#ffffff;
+    color:#c58470;
     transition: all 0.3s ease;
     padding: 15px 18px;
     position: relative;
@@ -314,12 +318,10 @@ textarea.form-control {
 .site-home {
   position: relative;
   height: 100vh;
-  background-image: url("../images/backgrounds/jobbar.jpg");
+  background-image: url("../images/backgrounds/linjer.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
-  border-bottom-style: dotted;
-  border-bottom-color: rgb(175, 175, 175);
-  border-bottom-width: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -358,6 +360,11 @@ textarea.form-control {
     padding: 150px 0;
   }
 }
+.site-home-content {
+  margin-left: -59%;
+  margin-top: 30%;
+}
+
 .site-home-content h1 {
   margin-bottom: 120px;
 }
@@ -400,8 +407,8 @@ textarea.form-control {
 }
 .site-home-scroll {
   position: absolute;
-  left: 50%;
-  bottom: 70px;
+  left: 49.5%;
+  bottom: 10px;
   transform: translateX(-50%);
 }
 
@@ -436,9 +443,14 @@ textarea.form-control {
 }
 
 .site-project {
-  padding: 120px 0;
+  padding: 3.5% 0;
   overflow: hidden;
 }
+.site-project-page {
+  padding: 9% 0;
+  overflow: hidden;
+}
+
 .site-project-item {
   position: relative;
   margin-bottom: 0px; /* grid w/o gutters */
@@ -462,8 +474,7 @@ textarea.form-control {
   }
 }
 .site-project-item-content span {
-  font-family: "Alegreya Sans", sans-serif;
-  color: #000000cc;
+  color: #000000;
   display: block;
   margin-bottom: 10px;
 }
@@ -501,7 +512,6 @@ textarea.form-control {
   margin-top: 30px;
   display: inline-block;
   position: relative;
-  font-family: "Alegreya Sans", sans-serif;
   font-size: 18px;
   font-weight: 500;
   color: #ffffff;
@@ -598,7 +608,7 @@ textarea.form-control {
   color: #fff;
 }
 .site-project-single-section {
-  padding: 250px 0 100px;
+  padding: 100px 0 100px;
 }
 @media (max-width: 767px) {
   .site-project-single-section {

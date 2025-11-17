@@ -1,5 +1,5 @@
 ---
-subTitle: "- A modern kitchen whisk, inspired by history." 
+subTitle: "" 
 title: "Spinner"
 img: "/assets/images/projects/spinner/spinner-thumbnail.jpg"
 linkText: "view project"
@@ -9,6 +9,8 @@ featureImg3: "/assets/images/projects/spinner/two-spinners.jpg"
 featureImg4: "/assets/images/projects/spinner/spinner-w-bowl.jpg"
 
 ---
+*\- A modern kitchen whisk, inspired by history.*
+
 ##### Brief
 Make a hand held tool using design methodology.
 

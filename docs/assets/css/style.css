@@ -318,7 +318,7 @@ textarea.form-control {
 .site-home {
   position: relative;
   height: 100vh;
-  background-image: url("../images/backgrounds/linjer.jpg");
+  background-image: url("../images/backgrounds/lines-new.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -453,7 +453,8 @@ textarea.form-control {
 
 .site-project-item {
   position: relative;
-  margin-bottom: 0px; /* grid w/o gutters */
+  margin-bottom: 10px; /* grid w/o gutters */
+  margin-right: 10px;
   transition: all 0.3s ease-in;
 }
 .site-project-item-thumb img {
@@ -641,7 +642,7 @@ textarea.form-control {
 }
 .site-project-single-description p {
   margin-bottom: 30px;
-  color:#ffffff
+  color:#000000
 }
 .site-project-single-action a {
   position: relative;

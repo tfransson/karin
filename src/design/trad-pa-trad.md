@@ -1,5 +1,5 @@
 ---
-subTitle: "2023" 
+subTitle: "" 
 title: "Tråd på tråd"
 img: "/assets/images/projects/trad-pa-trad/thumbnail.jpg"
 linkText: "view project"

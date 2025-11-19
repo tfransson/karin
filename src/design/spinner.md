@@ -1,5 +1,5 @@
 ---
-subTitle: "" 
+subTitle: "A modern kitchen whisk, inspired by history." 
 title: "Spinner"
 img: "/assets/images/projects/spinner/spinner-thumbnail.jpg"
 linkText: "view project"

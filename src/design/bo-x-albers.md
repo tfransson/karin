@@ -1,6 +1,6 @@
 ---
-subTitle: "Hej" 
-title: "Anni Albers X Bang & Olufsen"
+subTitle: "Rhythm, craftsmanship, tactility, color, balance." 
+title: "Bang & Olufsen x Anni Albers"
 img: "/assets/images/projects/bo-x-albers/thumbnail.jpg"
 linkText: "view project"
 featureImg1: "/assets/images/projects/bo-x-albers/from-medium-high.png"

@@ -1,5 +1,5 @@
 ---
-subTitle: "" 
+subTitle: "Floating movements in hand-blown glass." 
 title: "Stim"
 img: "/assets/images/projects/spinner/spinner-thumbnail.jpg"
 linkText: "view project"
@@ -9,8 +9,6 @@ featureImg3: "/assets/images/projects/spinner/two-spinners.jpg"
 featureImg4: "/assets/images/projects/spinner/spinner-w-bowl.jpg"
 
 ---
-*\- Floating movements in hand-blown glass. A colleciton of vessels inspired by the sea.*
-
 ##### Brief
 Design and make a wooden mould for glassblowing to bring to Skruf Glassworks. 
 

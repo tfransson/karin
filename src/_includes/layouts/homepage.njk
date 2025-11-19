@@ -49,20 +49,19 @@
         <div class="row no-gutters">
           <div class="col-12">
             <div class="section-title">
-              <h2>{{portfolio_design.subTitle}}</h2>
-              <p>{{portfolio_design.title}}</p>
+              <h2>{{portfolio_design.title}}</h2>
+              <p>{{portfolio_design.subTitle}}</p>
             </div>
           </div>
           {% for portfolio in collections.design_portfolios %}
           <div class="col-lg-4 col-md-6 col-sm-12 mx-auto">
-            <div class="site-project-item">
+            <div class="site-project-item" onclick="window.location.href='{{portfolio.url | url}}'">
               <div class="site-project-item-thumb">
                 <img src="{{portfolio.data.img | url}}" alt="project-thumb">
               </div>
               <div class="site-project-item-content">
                 <h3>{{portfolio.data.title}}</h3>
-                <span>{{portfolio.data.subTitle}}</span>
-                <a href="{{portfolio.data.page.url | url}}" class="read-more">{{portfolio.data.linkText}}</a>
+                <a class="read-more">{{portfolio.data.subTitle}}</a>
               </div>
             </div>
           </div>
@@ -78,56 +77,25 @@
         <div class="row">
           <div class="col-12">
             <div class="section-title">
-              <h2>{{portfolio_craft.subTitle}}</h2>
-              <p>{{portfolio_craft.title}}</p>
+              <h2>{{portfolio_craft.title}}</h2>
+              <p>{{portfolio_craft.subTitle}}</p>
             </div>
           </div>
           {% for portfolio in collections.craft_portfolios %}
           <div class="col-lg-4 col-md-6 mx-auto">
-            <div class="site-project-item">
+            <div class="site-project-item" onclick="window.location.href='{{portfolio.url | url}}'">
               <div class="site-project-item-thumb">
                 <img src="{{portfolio.data.img | url}}" alt="project-thumb">
               </div>
               <div class="site-project-item-content">
-                <span>{{portfolio.data.subTitle}}</span>
                 <h3>{{portfolio.data.title}}</h3>
-                <a href="{{portfolio.data.page.url | url}}" class="read-more">{{portfolio.data.linkText}}</a>
+                <a class="read-more">{{portfolio.data.subTitle}}</a>
               </div>
             </div>
           </div>
           {% endfor %}
           <div class="col-12 text-center text-lg-left">
             <a href="/{{portfolio_craft.seeAllbtn.link | url}}" class="site-project-cta">{{portfolio_craft.seeAllbtn.text}}</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="site-cta">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h1 class="site-cta-title">{{workTogether.heading}}</h1>
-            <ul class="site-cta-buttons">
-              <li>
-                <a href="/{{workTogether.submitBtn.btnLink | url}}" class="btn btn-secondary">
-                  <span class="btn-area">
-                    <span data-text="{{workTogether.submitBtn.btnText}}">
-                      {{workTogether.submitBtn.btnText}}
-                    </span>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="/{{workTogether.convBtn.btnLink | url}}" class="btn btn-primary">
-                  <span class="btn-area">
-                    <span data-text="{{workTogether.convBtn.btnText}}">
-                      {{workTogether.convBtn.btnText}}
-                    </span>
-                  </span>
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>

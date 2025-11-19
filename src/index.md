@@ -13,15 +13,15 @@ home:
     link: "#craft_projects"
 
 portfolio_design:
-  subTitle: "Design"
-  title: "A sample of my design projects."
+  subTitle: "A sample of my design projects."
+  title: "Design"
   seeAllbtn:
     link: "design"
     text: "> More works"
 
 portfolio_craft:
-  subTitle: "Craft"
-  title: "A sample of my craft projects."
+  subTitle: "A sample of my craft projects."
+  title: "Craft"
   seeAllbtn:
     link: "craft"
     text: "> More works"

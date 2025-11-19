@@ -237,7 +237,6 @@ textarea.form-control {
     margin: 0;
     font-size: x-large;
     color: #ffffffc4;
-    -webkit-text-stroke: 0px #b36565d5;
   }
 }
 @media (max-width: 991px) {
@@ -248,13 +247,12 @@ textarea.form-control {
 .site-navigation .nav-item .nav-link {
     color:#c58470;
     transition: all 0.3s ease;
-    padding: 15px 18px;
+    padding: 5px 25px;
     position: relative;
   }
 
 @media (max-width: 991px) {
   .site-navigation .nav-item .nav-link {
-    font-family: "Alegreya Sans", sans-serif;
     color:#ffffff;
     text-decoration:none;
     transition: all 0.3s ease;
@@ -263,10 +261,26 @@ textarea.form-control {
   }
 }
 .site-navigation .nav-item .nav-link:hover {
-  color: #EAA4A4;
+  color:#b4654c;
+}
+.site-navigation .nav-item .nav-link:before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: calc(100% - 50px);
+  background:#c0acd8;
+  bottom: -2px;
+  transition: transform 0.3s cubic-bezier(0.36, 0.03, 0, 0.91);
+  transform-origin: right;
+  transform: scaleX(0);
+}
+.site-navigation .nav-item .nav-link:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+
 }
 .site-navigation .nav-item:last-child {
-  margin-left: 15px;
+  margin-left: 0px;
 }
 .site-navigation .navbar-toggler {
   outline: 0;
@@ -456,6 +470,7 @@ textarea.form-control {
   margin-bottom: 10px; /* grid w/o gutters */
   margin-right: 10px;
   transition: all 0.3s ease-in;
+  cursor: pointer; /* Show pointer on hover */
 }
 .site-project-item-thumb img {
   width: 100%;
@@ -464,7 +479,7 @@ textarea.form-control {
   position: absolute;
   background: #f7f9ff00;
   width: 100%;
-  padding: 45px 50px;
+  padding: 30px 30px;
   bottom: 0;
   transition: all 0.3s cubic-bezier(0.36, 0.03, 0, 0.91);
 }
@@ -477,7 +492,7 @@ textarea.form-control {
 .site-project-item-content span {
   color: #000000;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .site-project-item-content h3 {
   margin-bottom: 0;
@@ -515,21 +530,21 @@ textarea.form-control {
   position: relative;
   font-size: 18px;
   font-weight: 500;
-  color: #ffffff;
+  color:#c58470;
 }
 .site-project-cta::before {
   content: "";
   position: absolute;
   height: 2px;
   width: 100%;
-  background: #EAA4A4;
+  background:#c0acd8;
   bottom: -2px;
   transition: transform 0.3s cubic-bezier(0.36, 0.03, 0, 0.91);
   transform-origin: right;
   transform: scaleX(0);
 }
 .site-project-cta:hover {
-  color: #EAA4A4;
+  color: #b4654c;
   text-decoration: none;
 }
 .site-project-cta:hover::before {

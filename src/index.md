@@ -17,12 +17,12 @@ portfolio_design:
   title: "A sample of my design projects."
   seeAllbtn:
     link: "design"
-    text: "MORE WORKS"
+    text: "> More works"
 
 portfolio_craft:
   subTitle: "Craft"
   title: "A sample of my craft projects."
   seeAllbtn:
     link: "craft"
-    text: "MORE WORKS"
+    text: "> More works"
 ---

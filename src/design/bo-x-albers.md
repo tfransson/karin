@@ -1,5 +1,5 @@
 ---
-subTitle: "" 
+subTitle: "Hej" 
 title: "Anni Albers X Bang & Olufsen"
 img: "/assets/images/projects/bo-x-albers/thumbnail.jpg"
 linkText: "view project"

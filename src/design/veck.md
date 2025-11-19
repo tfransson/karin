@@ -1,5 +1,5 @@
 ---
-subTitle: "- A foldable furniture made for outdoor use, developed for the scandinavian climate." 
+subTitle: "" 
 title: "Veck"
 img: "/assets/images/projects/veck/thumbnail.jpg"
 linkText: "view project"
@@ -9,6 +9,8 @@ featureImg3: "/assets/images/projects/spinner/two-spinners.jpg"
 featureImg4: "/assets/images/projects/spinner/spinner-w-bowl.jpg"
 
 ---
+*\- A foldable furniture made for outdoor use, developed for the scandinavian climate.*
+
 ##### Brief
 With digital tools. Devolop a dining table with matching seating for outdoor use in pine wood. Stackable, foldable or knock-down.
 

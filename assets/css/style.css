@@ -462,7 +462,7 @@ body {
 @media (max-width: 767px) {
   .site-project-item-content {
     padding: 30px;
-    padding-bottom: 75px;
+    padding-bottom: 45px;
   }
 }
 .site-project-item-content span {
@@ -489,6 +489,7 @@ body {
   .site-project-item-content a.read-more {
     transform: translateY(0);
     opacity: 1;
+    font-size: 12px;
   }
 }
 .site-project-item:hover {

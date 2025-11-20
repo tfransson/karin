@@ -1,6 +1,8 @@
 ---
-subTitle: "Floating movements in hand-blown glass." 
 title: "Stim"
+subTitle: "Floating movements in hand-blown glass." 
+titleColor: "#ffffffff"
+subTitleColor: "#e0e0e0ff"
 img: "/assets/images/projects/spinner/spinner-thumbnail.jpg"
 linkText: "view project"
 featureImg1: "/assets/images/projects/spinner/spinner-process.jpg"

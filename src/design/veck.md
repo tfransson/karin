@@ -1,6 +1,8 @@
 ---
-subTitle: "Foldable outdoor furniture made for scandinavian climate." 
 title: "Veck"
+subTitle: "Foldable outdoor furniture made for scandinavian climate." 
+titleColor: "#ffffffff"
+subTitleColor: "#e0e0e0ff"
 img: "/assets/images/projects/veck/thumbnail.jpg"
 linkText: "view project"
 featureImg1: "/assets/images/projects/spinner/spinner-process.jpg"

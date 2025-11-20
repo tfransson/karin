@@ -1,6 +1,8 @@
 ---
-subTitle: "" 
 title: "You hurt my arm"
+subTitle: "" 
+titleColor: "#ffffffff"
+subTitleColor: "#e0e0e0ff"
 img: "/assets/images/projects/you-hurt-my-arm/thumbnail.jpg"
 linkText: "view project"
 featureImg1: "/assets/images/projects/you-hurt-my-arm/andromeda.jpg"

@@ -1,6 +1,8 @@
 ---
-subTitle: "" 
 title: "The hammer"
+subTitle: "" 
+titleColor: "#ffffffff"
+subTitleColor: "#e0e0e0ff"
 img: "/assets/images/projects/the-hammer/thumbnail.jpg"
 linkText: "view project"
 featureImg1: "/assets/images/projects/the-hammer/_MG_0031.jpg"

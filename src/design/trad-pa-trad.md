@@ -1,7 +1,9 @@
 ---
-subTitle: "" 
 title: "Tråd på tråd"
-img: "/assets/images/projects/trad-pa-trad/thumbnail.jpg"
+subTitle: "" 
+titleColor: "#ffffffff"
+subTitleColor: "#e0e0e0ff"
+img: "/assets/images/projects/trad-pa-trad/thumbnail2.jpg"
 linkText: "view project"
 featureImg1: "/assets/images/projects/trad-pa-trad/safety-pin.jpg"
 featureImg2: "/assets/images/projects/trad-pa-trad/circles-close-up.jpg"

@@ -1,6 +1,8 @@
 ---
-subTitle: "Rhythm, craftsmanship, tactility, color, balance." 
 title: "Bang & Olufsen x Anni Albers"
+subTitle: "Rhythm, craftsmanship, tactility, color, balance." 
+titleColor: "#ffffffff"
+subTitleColor: "#e0e0e0ff"
 img: "/assets/images/projects/bo-x-albers/thumbnail.jpg"
 linkText: "view project"
 featureImg1: "/assets/images/projects/bo-x-albers/from-medium-high.png"

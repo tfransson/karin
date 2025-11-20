@@ -1,6 +1,8 @@
 ---
-subTitle: "" 
 title: "Kupa"
+subTitle: "" 
+titleColor: "#ffffffff"
+subTitleColor: "#e0e0e0ff"
 img: "/assets/images/projects/kupa/kupa-thumbnail.jpg"
 linkText: "view project"
 featureImg1: "/assets/images/projects/kupa/kupa-slip-casting.jpg"

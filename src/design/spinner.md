@@ -1,6 +1,8 @@
 ---
-subTitle: "A modern kitchen whisk, inspired by history." 
 title: "Spinner"
+subTitle: "A modern kitchen whisk, inspired by history." 
+titleColor: "#ffffffff"
+subTitleColor: "#e0e0e0ff"
 img: "/assets/images/projects/spinner/spinner-thumbnail.jpg"
 linkText: "view project"
 featureImg1: "/assets/images/projects/spinner/spinner-process.jpg"

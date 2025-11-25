@@ -22,3 +22,5 @@ There is a relationship between the link and the knitting stitch. Both are tradi
 By picking up textiles and shaping metal, I have investigated the meeting between these two materials. Within the confines of the home, I have sought an interplay between the hard and the soft.
 
 A design that revolves around materials, time and value.
+
+<img src="/assets/images/projects/trad-pa-trad/complete.jpg" alt="Complete" width="100%"/>

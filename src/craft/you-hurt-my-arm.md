@@ -11,5 +11,6 @@ featureImg3: "/assets/images/projects/you-hurt-my-arm/kallsup.jpg"
 featureImg4: "/assets/images/projects/you-hurt-my-arm/diva.jpg"
 ---
 #### *[WORK IN PROGRESS]*
-
+<img src="/assets/images/projects/you-hurt-my-arm/presentation-1.jpg" alt="Group" width="100%"/>
+<img src="/assets/images/projects/you-hurt-my-arm/presentation-2.jpg" alt="Group" width="100%"/>
 <img src="/assets/images/projects/you-hurt-my-arm/smide-i-oversattning-grupp.jpg" alt="Group" width="100%"/>

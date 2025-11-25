@@ -366,12 +366,6 @@ body {
 .site-home-content-buttons li {
   display: inline-block;
 }
-@media (max-width: 575px) {
-  .site-home-content-buttons li {
-    /*display: block;*/
-    
-  }
-}
 .site-home-content-buttons li:not(:last-child) {
   margin-right: 30px;
 }

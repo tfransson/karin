@@ -5,12 +5,13 @@ titleColor: "#ffffffff"
 subTitleColor: "#e0e0e0ff"
 img: "/assets/images/projects/veck/thumbnail.jpg"
 linkText: "view project"
-featureImg1: "/assets/images/projects/spinner/spinner-process.jpg"
-featureImg2: "/assets/images/projects/spinner/many-spinners.jpg"
-featureImg3: "/assets/images/projects/spinner/two-spinners.jpg"
-featureImg4: "/assets/images/projects/spinner/spinner-w-bowl.jpg"
+featureImg1: "/assets/images/projects/veck/FIXA"
+featureImg2: "/assets/images/projects/veck/FIXA"
+featureImg3: "/assets/images/projects/veck/FIXA"
+featureImg4: "/assets/images/projects/veck/FIXA"
 
 ---
+#### [WORK IN PROGRESS]
 ##### Brief
 With digital tools. Devolop a dining table with matching seating for outdoor use in pine wood. Stackable, foldable or knock-down.
 

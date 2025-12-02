@@ -233,13 +233,14 @@ body {
 }
 .site-navigation .nav-item .nav-link:hover {
   color:#b4654c;
+  font-weight: 500;
 }
 .site-navigation .nav-item .nav-link:before {
   content: "";
   position: absolute;
   height: 2px;
   width: calc(100% - 50px);
-  background:#c0acd8;
+  background:#b4654c;
   bottom: -2px;
   transition: transform 0.3s cubic-bezier(0.36, 0.03, 0, 0.91);
   transform-origin: right;
